@@ -1,0 +1,91 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Body background with a warm coffee vibe */
+body {
+    background-image: url('cof.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container for the login box */
+.container {
+    background-color: #795548; /* Coffee brown */
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    text-align: center;
+}
+
+/* Logo and tagline */
+.logo img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #ffffff; /* Warm yellow */
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    color: #D7CCC8;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-style: italic;
+}
+
+/* Label styles */
+label {
+    display: block;
+    text-align: left;
+    color: #ffffff;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+/* Input field styling */
+input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #BCAAA4;
+    border-radius: 5px;
+    background-color: #EFEBE9;
+}
+
+/* Button styling with coffee theme */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #795548;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #322020;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .container {
+        width: 90%;
+    }
+}
